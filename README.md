@@ -10,7 +10,12 @@ Launching a website is one of the most important thing for a company either it i
 Let’s see how you can host a website using AWS with some easy steps:
 
 - Step 1: Gathering the Basics:
-        The most basic step is to first have a working AWS account and your front end code (.html file) which will be the content of your website. Don’t worry about the .html content even a basic <p>Hello World</p> can be made.
+        The most basic step is to first have a working AWS account and your front end code (.html file) which will be the content of your website. 
+        Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/julien-muke/static_website_aws.git
+   ```
 
 - Step 2: Create a S3 Bucket of your website
         To keep things simple we will be using only one AWS service to host our website that is AWS S3. AWS S3 in an storage service where all files are stored in S3 Buckets.
