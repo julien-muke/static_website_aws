@@ -21,11 +21,11 @@ Let’s see how you can host a website using AWS with some easy steps:
 - Step 4: Configure the settings of your S3 Bucket
         
 
-- Next click on Permission tab, Now you’ll need to click on the “Bucket Policy” subsection. Here, you’ll be prompted to create a JSON object that contains the details of your bucket’s access permission policy.
+Next click on Permission tab, Now you’ll need to click on the “Bucket Policy” subsection. Here, you’ll be prompted to create a JSON object that contains the details of your bucket’s access permission policy.
 
-- This part can be confusing. For now, I’ll just give you the JSON that will grant full public access to the files in your bucket. This will make the website publicly accessible.
+This part can be confusing. For now, I’ll just give you the JSON that will grant full public access to the files in your bucket. This will make the website publicly accessible.
 
-- Paste this into the bucket policy editor shown above:
+Paste this into the bucket policy editor shown above:
 
            ```bash
             {
