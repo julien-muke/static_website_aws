@@ -1,6 +1,8 @@
 # Build and Launch a website on Amazon S3
 ![Screenshot](Screenshot.png)
 
+### [🌐 LIVE SITE](https://muke-demo-s3.s3.amazonaws.com/static_website_aws/index.html)
+
 ## Introduction
 Let's build together! In this tutorial, we will be deploying a beginner-friendly static website on AWS.
 
@@ -32,23 +34,19 @@ This part can be confusing. For now, I’ll just give you the JSON that will gra
 
 Paste this into the bucket policy editor shown above:
 
-           ```bash
-            {
-                "Version":"2012-10-17",
-                "Statement":
-                    [
-                        {
-                            "Sid":"PublicReadForGetBucketObjects",
-                            "Effect":"Allow","Principal":"*",
-                            "Action":"s3:GetObject",
-                            "Resource":"arn:aws:s3:::YOUR-BUCKET-NAME/*"
-                        }
-                      ]
-            }
-            ```
+
+    ```bash
+    {   "Version":"2012-10-17",
+            "Statement":
+             [{
+                "Sid":"PublicReadForGetBucketObjects",
+                "Effect":"Allow","Principal":"*",
+                "Action":"s3:GetObject",
+                "Resource":"arn:aws:s3:::YOUR-BUCKET-NAME/*"
+            }]
+     }
+    ```
         
-
-
 - Step 5: Hosting your Website
           To access your site, go back to the “Overview” tab on S3 and click on your index document . You’ll get a slide-in menu with the link on your website.
 
