@@ -1,5 +1,6 @@
 # Build and Launch a website on Amazon S3
-![Screenshot](Screenshot.png)
+![Blank diagram-4](https://github.com/julien-muke/static_website_aws/assets/110755734/1aeda0f8-11fb-47e2-b1c0-5165019d6195)
+
 
 ### [🌐 LIVE SITE](https://muke-demo-s3.s3.amazonaws.com/static_website_aws/index.html)
 
